@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="printAllQualifiers" value="" />
+        <option name="stubNoWarnIfNotFound" value="true" />
+        <option name="stubs" value="$PROJECT_DIR$/checkerframework" />
+        <option name="suppressWarnings" value="keyfor" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker/3.26.0/d3d39bf9cdd71125be9ed5fdc46847dbbbdb9ff7/checker-3.26.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-util/3.26.0/e47d2b2bcc2793a5abd18afb15c547e42fcf60d7/checker-util-3.26.0.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/3.26.0/90fcfd698d7e62fb29230fe70fbc50b2bca6b42d/checker-qual-3.26.0.jar" />
+          <entry name="$PROJECT_DIR$/build/checkerframework" />
+        </processorPath>
+        <module name="checkerframework-stubNoWarnIfNotFound.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="18" />
+  </component>
+</project>

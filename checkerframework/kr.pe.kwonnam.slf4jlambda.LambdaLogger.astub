@@ -1,0 +1,12 @@
+package kr.pe.kwonnam.slf4jlambda;
+
+import org.jetbrains.annotations.Nullable;
+
+public interface LambdaLogger {
+
+    public void doLog(@Nullable Marker marker, Level level, Supplier<String> msgSupplier, @Nullable Throwable t);
+
+    public void doLog(@Nullable Marker marker, Level level, String format, Supplier<?>[] argSuppliers, @Nullable Throwable t);
+
+    public void doLog(@Nullable Marker marker, Level level, String format, Object[] arguments, @Nullable Throwable t);
+}
